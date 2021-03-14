@@ -5,8 +5,11 @@ import { Provider } from 'react-redux';
 import { createGlobalStyle } from 'styled-components';
 
 import store from './store';
-import App from './components/App';
+// import App from './components/App';
+import 'antd/dist/antd.css';
+import CurrancyContainer from './components/CurrancyContainer';
 import reset from './constants/css/reset';
+import './css/styles.css';
 
 const GlobalStyle = createGlobalStyle`${reset}`;
 
@@ -14,7 +17,7 @@ ReactDOM.render(
     <BrowserRouter>
         <Fragment>
             <Provider store={store}>
-                <App />
+                <CurrancyContainer />
             </Provider>
             <GlobalStyle />
         </Fragment>

@@ -18,7 +18,7 @@
     "rules": {
         "indent": ["error", 4],
         "space-before-function-paren": "off",
-        "react/prefer-stateless-function": "warn",
+        "react/prefer-stateless-function": "off",
         "react/jsx-one-expression-per-line": "off",
         "import/no-extraneous-dependencies": [
             "error",

@@ -1,5 +1,96 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css');
+
+.leaflet-container {
+	height: 250px;
+	width: 100%;
+}
+
+.mapContainer {
+	position: relative;
+	width: 100%;
+	height: 250px;
+}
+
 .square {
     background-color: red;
     width: 100px;
     height: 100px;
 }
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.padd_b_10{
+	padding-bottom: 10px;
+}
+
+.padd_t_10{
+	padding-top: 10px;
+}
+
+.padd_r_10{
+	padding-right: 10px;
+}
+
+.padd_l_10{
+	padding-left: 10px;
+}
+
+.padd_10 {
+	padding: 10px;
+}
+
+.listElement{
+	float: left;
+	padding: 0px 16px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	padding: 2px;
+}
+
+table {
+    width: 100%;
+}
+
+.dateFormat{
+	text-align: center;
+	color: orange;
+}
+
+.cityName {
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.temperature{
+	font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+
+ul.list {
+    margin-top: 20px;
+}
+
+.centring {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.example {
+	margin: 0px 0;
+	margin-bottom: 20px;
+	padding: 30px 50px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.05);
+	border-radius: 4px;
+	height: 700px;
+  }

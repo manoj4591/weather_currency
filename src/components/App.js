@@ -30,10 +30,6 @@ const Paragraph = styled.p`
     font-size: 1rem;
 `;
 
-const Link = styled.a`
-    color: #00a8e8;
-`;
-
 const App = () => (
     <Container>
         <Wrapper>
@@ -43,12 +39,7 @@ const App = () => (
                 </span>{' '}
                 React Bolt
             </Title>
-            <Paragraph>The most simple and robust React boilerplate.</Paragraph>
             <Paragraph>
-                Read the article{' '}
-                <Link href="https://medium.freecodecamp.org/a-complete-react-boilerplate-tutorial-from-zero-to-hero-20023e086c4a" target="_blank">
-                    here.
-                </Link>
             </Paragraph>
         </Wrapper>
     </Container>
