@@ -11,8 +11,7 @@
         "test": "jest",
         "test:watch": "npm run test --watch",
         "test:cover": "npm run test --coverage",
-        "cypress:open": "cypress open",
-        "prepush": "npm run lint"
+        "cypress:open": "cypress open"
     },
     "keywords": [
         "react",
@@ -23,7 +22,7 @@
         "starter",
         "boilerplate"
     ],
-    "author": "Leonardo Maldonado <leonardomso11@gmail.com>",
+    "author": "manoj suryawanshi",
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -35,7 +34,8 @@
     "homepage": "https://github.com/leonardomso/react-bolt#readme",
     "husky": {
         "hooks": {
-            "pre-commit": "npm run lint && npm test"
+            "pre-commit": "npm run lint && npm test",
+            "prepush": "npm run lint"
         }
     },
     "devDependencies": {
